@@ -52,12 +52,12 @@ main{
 
 h2{
     margin-top:10px;
+    margin-bottom:5px;
     padding-left:10px;
     height:40px;
     width:100%;
     border-bottom: 1px solid #c9c9c9;
     box-sizing: border-box;
-    margin-bottom: 0;
 }
 
 a:link {

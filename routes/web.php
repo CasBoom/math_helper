@@ -14,5 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+Route::get('/quiz/{id}/{question}', function () {
+    return view('quiz');
+});
+
+Route::get('/results', function () {
+    return view('results');
+});
+
+Route::post('/create_quiz', 'quizController@create');

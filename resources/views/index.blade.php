@@ -4,7 +4,7 @@ Dashboard
 @endsection
 
 @section('content')
-    <form method="" action="post">
+    <form method="/create_quiz" action="post">
         <h2>Calculus II trainer</h2>
         @csrf
         <input type="hidden" value="{{hash('ripemd160',now() . rand()) }}" name="id">
