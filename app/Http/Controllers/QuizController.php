@@ -10,4 +10,8 @@ class QuizController extends Controller
         $id = "";
         return redirect("/quiz/$id/1");
     }
+
+    function check(){
+
+    }
 }
